@@ -5,7 +5,8 @@ import modelo.ContaPoupanca;
 
 public class AppContas {
     public static void main(String[] args) {
-        ContaPoupanca conta = new ContaPoupanca(123); // tipo Conta
+        ContaPoupanca conta1 = new ContaPoupanca(123); // tipo Conta
+        ContaPoupanca conta2 = new ContaPoupanca(123); // tipo Conta
 
         conta.setTaxaOperacao(0.1);
 
