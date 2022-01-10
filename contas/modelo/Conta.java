@@ -1,11 +1,12 @@
 package modelo;
 
-public class Conta {
+public class Conta { //classe abstrata = modelo para outras classes, não pode instanciar objetos
     private int numero;
     private double saldo;
 
     public Conta (int numero) {
-        this.numero = numero;
+        this.numero = numero; 
+        // this.saldo = 0;
     }
 
     public int getNumero() { // 
@@ -34,7 +35,7 @@ public class Conta {
     }
     @Override
     public String toString() {
-        return numero + " : " + saldo;
+        return numero + " : " + String.format("R$ %.2f", saldo);
     }
 
 }

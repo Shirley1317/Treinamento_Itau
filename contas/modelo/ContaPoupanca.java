@@ -1,13 +1,13 @@
 package modelo;
 
 public class ContaPoupanca extends Conta {
-    private static double taxaOperacao; // static é um atributo que pertence a classe ContaPoupança e não um atributo de um só objeto
+    private static double taxaOperacao = 0.2; // static é um atributo que pertence a classe ContaPoupança e não um atributo de um só objeto
 
     public ContaPoupanca (int numero) {// criamos um construtor
         super(numero); // que recebe o valor de conta
     }
     
-    public void setTaxaOperacao(double novaTaxa) {
+    public static void setTaxaOperacao(double novaTaxa) { // static método da classe
         taxaOperacao = novaTaxa;
     }
 

@@ -8,8 +8,10 @@ public class Exemplo02 {
 
         while (cont < 5 ) {
             System.out.print(cont + " "); // print sem ln, não pula para proxima linha
-            cont++; // cont = cont +1;
-            // cont += 2; // cont = cont + 2;
+            cont++; // soma um na variável cont
+            //cont = cont +1; //mesma coisa do comando acima
+            //cont += 2; // soma dois na variável cont
+            // cont = cont + 2; // mesma coisa do comando acima
             
             
         }
@@ -20,11 +22,8 @@ public class Exemplo02 {
             
         }
 
-    private static int extracted() {
-        int cont;
-        cont = 1;
-        return cont;
+    
     }
-    }
+    
     
 

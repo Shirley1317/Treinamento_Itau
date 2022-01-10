@@ -8,8 +8,20 @@ public class Exemplo01 {
         mapa.put(2, "Dois");
         mapa.put(3, "Tres");
 
-        System.out.println(mapa.get(2));
-    }
+        String resposta = mapa.get(2); // busca a informação da chave 2 dento do Hash
 
+           
+        System.out.println(resposta);
+
+        System.out.println(mapa.get(4));
+
+        if(mapa.get(4) != null) {
+            System.err.println("Achou");
+        } else {
+            System.out.println("Não achou");
+        }
+
+    }
     
 }
+    

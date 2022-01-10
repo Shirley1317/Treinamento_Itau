@@ -1,7 +1,7 @@
 package modelo;
 
 public class ContaCorrente extends Conta { // herança dos métodos da classe Conta
-    final double TAXA_DEPOSITO = 0.1;
+    private final double TAXA_DEPOSITO = 0.1;
     public ContaCorrente(int numero) {
         super(numero);
     }

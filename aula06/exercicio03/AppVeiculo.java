@@ -6,7 +6,7 @@ public class AppVeiculo {
        
         veiculo.exibirDados();
         //veiculo.consumo = -10; // erro! não podemos 
-        veiculo.aterarConsumo(-20);
+        veiculo.alterarConsumo(-20);
 
         System.out.println("Consumo : " + veiculo.obterConsumo());
 

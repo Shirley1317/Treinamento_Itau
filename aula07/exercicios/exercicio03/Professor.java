@@ -7,8 +7,9 @@ public class Professor extends Pessoa {
         super(nome, telefone);
         this.salario = salario;
     }
-
-    public String getDados() {
+    @Override
+    public String toString() {
+        return super.toString() + " - " + salario;
         
     }
     

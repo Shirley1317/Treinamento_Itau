@@ -4,6 +4,8 @@ public class Pessoa {
     private String nome, telefone; // criamos uma classe
 
     public Pessoa (String nome) {
+        this.nome = nome;
+        this.telefone = "() -  ";
         
     }
 
@@ -13,8 +15,10 @@ public class Pessoa {
         this.telefone = telefone;
 
     }
+    @Override // indica que este método é uma sobrescrita
+        // de um método da superclasse
 
-    public String getDados() { // criamos um método que retorna o nome e o telefone
+    public String toString() { // criamos um método que retorna o nome e o telefone
         return nome + " - " + telefone;
 
     }

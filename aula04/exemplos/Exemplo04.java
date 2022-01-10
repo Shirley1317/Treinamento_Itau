@@ -1,4 +1,6 @@
 public class Exemplo04 {
+    public static void main(String[] args) {
+            
     String palavra1, palavra2;
 
     palavra1 = "laranja";
@@ -11,3 +13,4 @@ public class Exemplo04 {
     
     
 }
+    }
